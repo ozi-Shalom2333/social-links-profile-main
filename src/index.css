@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@font-face{
+  font-family: 'Inter';
+  src: url("src/assets/fonts/static/Inter-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@theme {
+  --color-custom-dark: hsl(0, 0%, 20%);
+  --color-custom-darker: hsl(0, 0%, 12%);
+  --color-custom-darkest: hsl(0, 0%, 8%);
+
+  --color-custom-green: hsl(75, 94%, 57%);
+  --color-custom-white: hsl(0, 0%, 100%);
+}
